@@ -1,4 +1,4 @@
-import pysubgroup as ps
+import pysubgroup as ps #from: https://github.com/flemmerich/pysubgroup/tree/master/pysubgroup/tests
 import pandas as pd
 
 # Load the example dataset

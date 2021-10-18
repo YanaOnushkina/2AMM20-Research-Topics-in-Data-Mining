@@ -5,6 +5,8 @@
 SD_Discrimination : Framework for Subgroup Discovery and detecting discrimination in datasets. Main function
 """
 
+#FROM https://github.com/franloza/sd-discrimination
+
 import sys, os, argparse, logging, pandas as pd
 from sd import sd, sd_beamSearch
 from discrimination import discrimination
