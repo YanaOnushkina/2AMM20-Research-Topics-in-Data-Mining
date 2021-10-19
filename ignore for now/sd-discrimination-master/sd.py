@@ -4,6 +4,7 @@ Module that includes all the functions for Subgroup Discovery (SD)
 import logging
 import math
 from enum import Enum
+import pandas as pd
 
 def sd(dataset):
     """
@@ -18,7 +19,7 @@ def sd(dataset):
     #Example
     #subgroup = dataset[(dataset['race'] == 'Latino/Hispanic American') & (dataset['age'] > 23)]
 
-    subgroup = dataset[(dataset['BrexitID'] == "a Remainer") & (dataset["Wave"] == 1.0) & (dataset["sex"] == "Man") & (dataset["age"] > 70)]
+    subgroup = dataset[(dataset['BrexitID'] == "a Remainer")]
 
     #####################################################################
 
@@ -63,12 +64,9 @@ def evaluate_specificity (dataset,subgroup,targetColumn):
     """Returns the Specificity of a subgroup."""
     #Get confusion matrix
     cf = confusion_matrix(dataset,subgroup,targetColumn)
-
+    print(cf)
     #Calculate specificity
-    if(cf[1][0] != 0.0 or cf[1][1] != 0.0):
-        specificity = 1 - (cf[1][0] / (cf[1][0] + cf[1][1]))
-    else:
-        specificity = 1
+    specificity = 1 - (cf[1][0] / (cf[1][0] + cf[1][1]))
     logging.info('Specificity: {:.6f}'.format(specificity))
     return specificity
 
@@ -76,7 +74,7 @@ def evaluate_sensitivity (dataset,subgroup,targetColumn):
     """Returns the Sensitivity of a subgroup."""
     #Get confusion matrix
     cf = confusion_matrix(dataset,subgroup,targetColumn)
-    
+    print(cf)
     #Calculate sensitivity
     sensitivity = cf[0][0] / (cf[0][0] + cf [0][1])
     logging.info('Sensitivity: {:.6f}'.format(sensitivity))
@@ -109,11 +107,15 @@ def confusion_matrix (dataset,subgroup,targetColumn):
     #Calculate the complement of the dataset over the subgroup
     complement = dataset[~dataset.index.isin(subgroup.index)]
 
+
+########THIS WE CHANGED
+
+
     #Elements of confusion matrix
-    subgroup_pos_target_rate = len(subgroup[subgroup[targetColumn] == 1]) / total_rows
-    subgroup_neg_target_rate = len(subgroup[subgroup[targetColumn] == 0]) / total_rows
-    complement_pos_target_rate = len(complement[complement[targetColumn] == 1]) / total_rows
-    complement_neg_target_rate = len(complement[complement[targetColumn] == 0]) / total_rows
+    subgroup_pos_target_rate = len(subgroup[subgroup[targetColumn] == 'a Remainer']) / total_rows
+    subgroup_neg_target_rate = len(subgroup[subgroup[targetColumn] != 'a Remainer']) / total_rows
+    complement_pos_target_rate = len(complement[complement[targetColumn] == 'a Remainer']) / total_rows
+    complement_neg_target_rate = len(complement[complement[targetColumn] != 'a Remainer']) / total_rows
     
     return [[subgroup_pos_target_rate,complement_pos_target_rate],
             [subgroup_neg_target_rate,complement_neg_target_rate]]
