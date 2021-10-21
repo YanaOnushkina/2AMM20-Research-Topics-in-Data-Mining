@@ -53,7 +53,7 @@ def main():
 
   #CONFIGURE READ_CSV FUNCTION TO READ THE CSV PROPERLY
   #----------------------------------------------------
-  df = pd.read_csv("../../data/BrexitAttitudes_Data_wave1.csv", encoding ="ISO-8859-1", delimiter=',')
+  df = pd.read_csv("../data/BrexitAttitudes_Data_wave1.csv", encoding ="ISO-8859-1", delimiter=',')
   #----------------------------------------------------
   
   if type == "autoSD":

@@ -163,8 +163,6 @@ def sd_beamSearch(dataset):
             print(sg[3], sg[2])
 
 
-
-
 def getDescriptorsEW (dataset, column, bins):
     width = (max(dataset[column]) - min(dataset[column]))/bins
     logging.debug("column=" + str(column) + ", width=" + str(width))

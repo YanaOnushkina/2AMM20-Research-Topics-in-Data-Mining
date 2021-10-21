@@ -2,7 +2,7 @@ import pysubgroup as ps #from: https://github.com/flemmerich/pysubgroup/tree/mas
 import pandas as pd
 
 # Load the example dataset
-data = pd.read_csv("data/BrexitAttitudes_Data_wave1.csv")
+data = pd.read_csv("../data/BrexitAttitudes_Data_wave1.csv")
 
 #ps.NumericTarget() -> read the documentation
 target = ps.BinaryTarget('BrexitID', 'a Remainer')
