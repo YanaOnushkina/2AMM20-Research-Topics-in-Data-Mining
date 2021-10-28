@@ -26,22 +26,23 @@ for x in data:
         x,
         target,
         searchspace,
-        result_set_size=200,
+        result_set_size=10,
         depth=10,
         qf=ps.WRAccQF())
-    result = ps.BeamSearch(200).execute(task)
+    result = ps.BeamSearch(10).execute(task)
     rules = result.to_dataframe()
     full_rules.append(rules)
 
 for rules in full_rules:
     print(rules.to_string())
 
-stable_recalculate(full_rules)
+stable_recalculate(full_rules, data)
 
 
 # rules.to_csv("./rules/Rules wave10")
 
-# x = data[8][data[8]['Poscountry'] == 'Somewhat negative effect']
+# x = data[8][data[8]['EURef2016'] == 'Remain']
+# x = x[x['profile_gross_personal'] == 'Not Asked or missing']
 # print(x['BrexitID'].value_counts())
 #
 # print(data[8]['BrexitID'].value_counts())
