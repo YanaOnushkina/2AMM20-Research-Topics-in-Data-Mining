@@ -71,7 +71,10 @@ def manual_calculation(year, subgroup_name, data):
     x = data[year]
     for rule in rules:
         print(rule, year)
-        rule = rule.split("==")
+        if "=" in rule:
+            rule = rule.split("==")
+        elif "<" in rule:
+            rule = rule.split("<")
         type_var = rule[0]
         target = rule[1].replace("\'", "")
         print(type_var, target)
