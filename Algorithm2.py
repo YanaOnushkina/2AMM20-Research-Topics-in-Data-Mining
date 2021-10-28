@@ -28,7 +28,7 @@ def calculate_subgroup(subgroup, subgroup_years, data):
     subgroup_name = subgroup['subgroup']
 
     combined_qualities = []
-    for i in range(0, 10):
+    for i in range(0, len(subgroup_years)):
         try:
             quality = subgroup_years[i].loc[subgroup_years[i]['subgroup'] == subgroup_name].iloc[0]['quality']
             # print(quality)
