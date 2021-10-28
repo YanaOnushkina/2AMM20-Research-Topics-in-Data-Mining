@@ -4,16 +4,16 @@ from Algorithm2 import stable_recalculate
 
 # Load the example dataset
 data = []
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave1_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave2_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave3_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave4_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave5_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave6_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave7_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave8_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave9_clean_nohindsite.csv"))
-data.append(pd.read_csv("data/BrexitAttitudes_Data_wave10_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave1_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave2_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave3_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave4_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave5_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave6_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave7_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave8_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave9_full.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave10_full.csv"))
 
 # ps.NumericTarget() -> read the documentation
 target = ps.BinaryTarget('BrexitID', 'a Remainer')
@@ -26,10 +26,10 @@ for x in data:
         x,
         target,
         searchspace,
-        result_set_size=100,
+        result_set_size=200,
         depth=10,
         qf=ps.WRAccQF())
-    result = ps.BeamSearch(100).execute(task)
+    result = ps.BeamSearch(200).execute(task)
     rules = result.to_dataframe()
     full_rules.append(rules)
 
