@@ -1,0 +1,101 @@
+;Year;Subgroup;Penalty;Old Quality;New Quality
+0;0;Hindsight=='Wrong';0.965679734;0.18705361;0.18063388
+1;0;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.174803693;0.165543856
+2;0;EURef2016=='Remain';0.943479397;0.158597785;0.149633742
+3;0;Hindsight=='Wrong' AND sex=='Woman';0.940935726;0.11069167;0.104153747
+4;0;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.107200723;0.096464191
+5;0;Poscountry=='Very negative effect';0.899477581;0.106728657;0.096000034
+6;0;EURef2016=='Remain' AND Hindsight=='Wrong' AND sex=='Woman';0.940525353;0.103533433;0.097375819
+7;0;EURef2016=='Remain' AND Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.920141462;0.100387757;0.092370938
+8;0;EURef2016=='Remain' AND Poscountry=='Very negative effect';0.917438966;0.100387757;0.09209964
+9;0;EURef2016=='Remain' AND sex=='Woman';0.945103847;0.095298028;0.090066533
+10;1;Hindsight=='Wrong';0.965679734;0.19412721;0.187464712
+11;1;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.183709988;0.173978361
+12;1;EURef2016=='Remain';0.943479397;0.172531131;0.162779567
+13;1;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.122672607;0.110386511
+14;1;Poscountry=='Very negative effect';0.899477581;0.12112067;0.108945328
+15;1;EURef2016=='Remain' AND Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.920141462;0.114507537;0.105363132
+16;1;EURef2016=='Remain' AND Poscountry=='Very negative effect';0.917438966;0.11430689;0.104869595
+17;1;Hindsight=='Wrong' AND sex=='Woman';0.940935726;0.112582971;0.10593334
+18;1;Govthand=='Very badly' AND Hindsight=='Wrong';0.797775899;0.112578876;0.089812714
+19;1;EURef2016=='Remain' AND Hindsight=='Wrong' AND sex=='Woman';0.940525353;0.108045911;0.101619919
+20;2;Hindsight=='Wrong';0.965679734;0.184236776;0.177913721
+21;2;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.184236776;0.100470542
+22;2;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.178075626;0.168642466
+23;2;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.178075626;0.095903454
+24;2;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.172766252;0.0921419
+25;2;EURef2016=='Remain';0.943479397;0.172766252;0.163001399
+26;2;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.12432571;0.11187405
+27;2;Hindsight=='Wrong' AND Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.513933515;0.12432571;0.063895149
+28;2;Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.514041881;0.123867482;0.063673073
+29;2;Poscountry=='Very negative effect';0.899477581;0.123867482;0.111416023
+30;3;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.202900406;0.11064845
+31;3;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing' AND profile_gross_personal=='Not Asked or missing';0.519644393;0.202900406;0.105436058
+32;3;Hindsight=='Wrong';0.965679734;0.202900406;0.19593681
+33;3;Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.43193953;0.202900406;0.087640706
+34;3;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.187473875;0.177542864
+35;3;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.422870157;0.187473875;0.079277107
+36;3;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing' AND profile_gross_personal=='Not Asked or missing';0.496919119;0.187473875;0.093159353
+37;3;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.187473875;0.100964925
+38;3;EURef2016=='Remain' AND profile_gross_personal=='Not Asked or missing';0.422269601;0.175605794;0.074152989
+39;3;EURef2016=='Remain';0.943479397;0.175605794;0.165680449
+40;4;Hindsight=='Wrong';0.965679734;0.186359351;0.179963449
+41;4;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.186359351;0.101628054
+42;4;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.168932216;0.159983408
+43;4;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.168932216;0.090979228
+44;4;EURef2016=='Remain';0.943479397;0.159437037;0.15042556
+45;4;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.159437037;0.085032994
+46;4;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.117119994;0.105390012
+47;4;Hindsight=='Wrong' AND Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.513933515;0.117119994;0.06019189
+48;4;Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.514041881;0.116427079;0.059848395
+49;4;Poscountry=='Very negative effect';0.899477581;0.116427079;0.104723547
+50;5;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.194650673;0.106149592
+51;5;GEvote2015=='Missing' AND Hindsight=='Wrong';0.489056633;0.194650673;0.095195203
+52;5;GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.470987002;0.194650673;0.091677937
+53;5;Hindsight=='Wrong';0.965679734;0.194650673;0.187970211
+54;5;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.170797049;0.161749455
+55;5;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong';0.488891891;0.170797049;0.083501292
+56;5;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.471930353;0.170797049;0.080604311
+57;5;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.170797049;0.091983543
+58;5;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.162394458;0.086610283
+59;5;EURef2016=='Remain';0.943479397;0.162394458;0.153215825
+60;6;Hindsight=='Wrong';0.965679734;0.194246697;0.187580099
+61;6;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.194246697;0.10592929
+62;6;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.166617489;0.157791298
+63;6;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.166617489;0.089732621
+64;6;EURef2016=='Remain';0.943479397;0.155515007;0.146725205
+65;6;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.155515007;0.082941247
+66;6;Hindsight=='Wrong' AND Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.513933515;0.126679909;0.065105051
+67;6;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.126679909;0.113992467
+68;6;Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.514041881;0.125862918;0.064698811
+69;6;Poscountry=='Very negative effect';0.899477581;0.125862918;0.113210873
+70;7;Hindsight=='Wrong';0.965679734;0.199611587;0.192760864
+71;7;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.199611587;0.108854946
+72;7;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.174583148;0.165334994
+73;7;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.174583148;0.094022564
+74;7;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.159348701;0.084985881
+75;7;EURef2016=='Remain';0.943479397;0.159348701;0.150342216
+76;7;Govthand=='Very badly' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.466623813;0.152991368;0.071389415
+77;7;Govthand=='Very badly' AND Hindsight=='Wrong';0.797775899;0.152991368;0.122052826
+78;7;Hindsight=='Wrong' AND Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.513933515;0.142486256;0.073228463
+79;7;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.142486256;0.128215753
+80;8;Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.545333804;0.192289981;0.104862227
+81;8;Hindsight=='Wrong';0.965679734;0.192289981;0.185690538
+82;8;Govthand=='Very badly' AND Hindsight=='Wrong';0.797775899;0.17176587;0.137030671
+83;8;Govthand=='Very badly' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.466623813;0.17176587;0.080150045
+84;8;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.161098841;0.152564989
+85;8;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_household=='Not Asked or missing';0.538554638;0.161098841;0.086760528
+86;8;EURef2016=='Remain' AND profile_gross_household=='Not Asked or missing';0.533332751;0.150040383;0.08002145
+87;8;EURef2016=='Remain';0.943479397;0.150040383;0.14156001
+88;8;Poscountry=='Very negative effect' AND profile_gross_household=='Not Asked or missing';0.514041881;0.149433018;0.07681483
+89;8;Poscountry=='Very negative effect';0.899477581;0.149433018;0.13441165
+90;9;GEvote2015=='Missing' AND Hindsight=='Wrong';0.489056633;0.193044526;0.094409706
+91;9;Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.43193953;0.193044526;0.083383562
+92;9;Hindsight=='Wrong';0.965679734;0.193044526;0.186419187
+93;9;GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.469910661;0.193044526;0.090713681
+94;9;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.470018793;0.167543422;0.078748557
+95;9;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.167543422;0.158668182
+96;9;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong';0.488891891;0.167543422;0.08191062
+97;9;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.422870157;0.167543422;0.070849113
+98;9;EURef2016=='Remain' AND profile_gross_personal=='Not Asked or missing';0.422269601;0.158188669;0.066798266
+99;9;EURef2016=='Remain';0.943479397;0.158188669;0.14924775

@@ -1,0 +1,11 @@
+;Year;Subgroup;Penalty;Old Quality;New Quality
+0;0;Hindsight=='Wrong';0.965679734;0.18705361;0.18063388
+1;0;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.174803693;0.165543856
+2;0;EURef2016=='Remain';0.943479397;0.158597785;0.149633742
+3;0;Hindsight=='Wrong' AND sex=='Woman';0.940935726;0.11069167;0.104153747
+4;0;Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.899846458;0.107200723;0.096464191
+5;0;Poscountry=='Very negative effect';0.899477581;0.106728657;0.096000034
+6;0;EURef2016=='Remain' AND Hindsight=='Wrong' AND sex=='Woman';0.940525353;0.103533433;0.097375819
+7;0;EURef2016=='Remain' AND Hindsight=='Wrong' AND Poscountry=='Very negative effect';0.920141462;0.100387757;0.092370938
+8;0;EURef2016=='Remain' AND Poscountry=='Very negative effect';0.917438966;0.100387757;0.09209964
+9;0;EURef2016=='Remain' AND sex=='Woman';0.945103847;0.095298028;0.090066533

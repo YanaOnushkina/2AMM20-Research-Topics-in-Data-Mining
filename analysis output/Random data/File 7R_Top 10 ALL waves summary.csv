@@ -1,0 +1,11 @@
+;Year;Subgroup;Quality
+0;ALL;Poscountry=='Wrong';0.177173
+1;ALL;EURef2016=='Remain';0.162575
+2;ALL; EURef2016=='Remain' AND Poscountry=='Wrong';0.158309
+3;ALL;Poscountry=='Wrong' AND education_age=='Not Asked or missing';0.143873
+4;ALL;EURef2016=='Remain' AND Poscountry=='Wrong' AND education_age=='Not Asked or missing';0.128038
+5;ALL;Posind=='Very negative effect';0.122385
+6;ALL;EURef2016=='Remain' AND education_age=='Not Asked or missing';0.120185
+7;ALL;Poscountry=='Wrong' AND Posind=='Very negative effect';0.11852
+8;ALL;Govthand=='Very badly' AND Poscountry=='Wrong';0.117378
+9;ALL;EURef2016=='Remain' AND Govthand=='Very badly';0.109007
