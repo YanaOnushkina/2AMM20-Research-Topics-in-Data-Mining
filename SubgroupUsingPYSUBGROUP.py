@@ -47,19 +47,11 @@ for x in data:
     rules = result.to_dataframe()
     full_rules.append(rules)
 
-for rules in full_rules:
-    print(rules.to_string())
+# for rules in full_rules:
+#     print(rules.to_string())
 
 stable_recalculate(full_rules, data)
 
-
-# rules.to_csv("./rules/Rules wave10")
-
-# x = data[8][data[8]['EURef2016'] == 'Remain']
-# x = x[x['profile_gross_personal'] == 'Not Asked or missing']
-# print(x['BrexitID'].value_counts())
-#
-# print(data[8]['BrexitID'].value_counts())
 
 for x in data2:
     searchspace = ps.create_selectors(x, ignore=['BrexitID'])
@@ -72,4 +64,3 @@ for x in data2:
         qf=ps.WRAccQF())
     result = ps.BeamSearch(10).execute(task)
     rules = result.to_dataframe()
-    print(rules.to_string())
