@@ -4,27 +4,17 @@ from Algorithm2 import stable_recalculate
 
 # Load the example dataset
 data = []
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave1_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave2_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave3_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave4_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave5_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave6_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave7_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave8_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave9_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave10_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave1_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave2_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave3_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave4_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave5_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave6_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave7_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave8_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave9_clean_nohindsite.csv"))
+data.append(pd.read_csv("data/BrexitAttitudes_Data_wave10_clean_nohindsite.csv"))
 
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave1_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave2_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave3_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave4_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave5_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave6_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave7_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave8_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave9_clean_nohindsite.csv"))
-# data.append(pd.read_csv("data/BrexitAttitudes_Data_wave10_clean_nohindsite.csv"))
 
 data2 = []
 data2.append(pd.read_csv("data/BrexitAttitudes_Data_clean_all.csv"))
