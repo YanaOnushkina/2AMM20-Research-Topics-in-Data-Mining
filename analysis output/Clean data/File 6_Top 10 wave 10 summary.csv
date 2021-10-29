@@ -1,0 +1,11 @@
+;Year;Subgroup;Penalty;Old Quality;New Quality
+0;9;EURef2016=='Remain';0.943479397;0.158188669;0.14924775
+1;9;Poscountry=='Very negative effect';0.899477581;0.121648563;0.109420155
+2;9;EURef2016=='Remain' AND Poscountry=='Very negative effect';0.917438966;0.108319026;0.099376095
+3;9;EURef2016=='Remain' AND Govthand=='Very badly';0.814723852;0.104183855;0.084881072
+4;9;Govthand=='Very badly';0.762428179;0.102452968;0.07811303
+5;9;Govthand=='Very badly' AND Poscountry=='Very negative effect';0.801790949;0.098568426;0.079031271
+6;9;EURef2016=='Remain' AND sex=='Woman';0.945103847;0.092721705;0.08763164
+7;9;Posind=='Somewhat negative effect';0.938272557;0.088298369;0.082847937
+8;9;EURef2016=='Remain' AND Govthand=='Very badly' AND Poscountry=='Very negative effect';0.813411287;0.087261354;0.07097937
+9;9;EURef2016=='Remain' AND work_stat=='Working full time (30 or more hours per week)';0.918442236;0.081903377;0.07522352

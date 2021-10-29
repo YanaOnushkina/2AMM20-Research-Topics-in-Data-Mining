@@ -1,0 +1,11 @@
+;Year;Subgroup;Penalty;Old Quality;New Quality
+0;9;GEvote2015=='Missing' AND Hindsight=='Wrong';0.489056633;0.193044526;0.094409706
+1;9;Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.43193953;0.193044526;0.083383562
+2;9;Hindsight=='Wrong';0.965679734;0.193044526;0.186419187
+3;9;GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.469910661;0.193044526;0.090713681
+4;9;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.470018793;0.167543422;0.078748557
+5;9;EURef2016=='Remain' AND Hindsight=='Wrong';0.947027225;0.167543422;0.158668182
+6;9;EURef2016=='Remain' AND GEvote2015=='Missing' AND Hindsight=='Wrong';0.488891891;0.167543422;0.08191062
+7;9;EURef2016=='Remain' AND Hindsight=='Wrong' AND profile_gross_personal=='Not Asked or missing';0.422870157;0.167543422;0.070849113
+8;9;EURef2016=='Remain' AND profile_gross_personal=='Not Asked or missing';0.422269601;0.158188669;0.066798266
+9;9;EURef2016=='Remain';0.943479397;0.158188669;0.14924775
