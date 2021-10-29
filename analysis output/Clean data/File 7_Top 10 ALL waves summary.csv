@@ -1,0 +1,11 @@
+;Year;Subgroup;Quality
+0;ALL;EURef2016=='Remain';0.162575
+1;ALL;Poscountry=='Very negative effect';0.127119
+2;ALL;EURef2016=='Remain' AND Poscountry=='Very negative effect';0.113468
+3;ALL;EURef2016=='Remain' AND Govthand=='Very badly';0.109007
+4;ALL;Govthand=='Very badly' AND Poscountry=='Very negative effect';0.101536
+5;ALL;EURef2016=='Remain' AND sex=='Woman';0.095173
+6;ALL;Posind=='Somewhat negative effect';0.092629
+7;ALL;EURef2016=='Remain' AND Govthand=='Very badly' AND Poscountry=='Very negative effect';0.090575
+8;ALL; EURef2016=='Remain' AND Posind=='Somewhat negative effect';0.087296
+9;ALL;Govthand=='Very badly';0.075748
